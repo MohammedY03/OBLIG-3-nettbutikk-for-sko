@@ -1,0 +1,29 @@
+html{
+  font-size: calc(1em+1vw)
+}
+
+header {
+  text-align: center;
+  padding: 0 0 1rem 0; 
+}
+
+ul {
+  list-style: none;
+}
+
+header nav a{
+  font-family:sans-serif;
+  font-weight: 900;
+  text-transform: uppercase; 
+  color: black
+}
+
+nav a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+div {
+  height: 100px;
+  width: 100px;
+ }
