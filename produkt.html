@@ -2,6 +2,12 @@
 <html lang="en">
 <head>
     <meta name="viewsport" content="width=device-width, initial-scale=1.0">
+    <!--versjonen min av facebook-->
+    <meta property="og:title" content="dette er en sko butikk for folk som vil kjøpe sko">
+    <meta property="og:description" content="denne siden er en side for folk som liker sko">
+    <meta property="og:image" content="img/adidas-5929387_640.jpg">
+    <meta property="og:url" content="https://itstud.hiof.no/~mohammey/web/OBLIG-3-nettbutikk-for-sko-kopi/index.html">
+    <!--Her slutter det-->
     <meta charset="UTF-8">
     <link href="css/font/css/fontawesome.css" rel="stylesheet">
     <link href="css/font/css/brands.css" rel="stylesheet">
@@ -12,6 +18,7 @@
 <body>
     <div id="grid-container">
     <header>
+        <a class="Skip" href="#skip-main">skip to main</a>
         <nav>
             <a href="index.html" id="logo">ShoeShop</a>
             <div>
@@ -27,22 +34,38 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="skip-main">
         <section class="flexContainer">   
             <article>
                <img src="img/jordan-4657349_640.jpg" alt="bildet av jordan sko">
+               <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <meta itemprop="priceCurrency" content="NOK">
+                <span itemprop="price" content="1 095.00"></span>
+                </div>
                 <h1>Nike air force 1: 1 095,00 kr</h1>   
             </article>
             <article>
             <img src="img/adidas-5929387_640.jpg" alt="en adidas sko">
+            <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <meta itemprop="priceCurrency" content="NOK">
+                <span itemprop="price" content="799.00"></span>
+                </div>   
             <h1>Adidas: 799 kr</h1>
             </article>
             <article>
                 <img src="img/sneakers-5979353_640.jpg" alt="en jordan sko">
+                <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                    <meta itemprop="priceCurrency" content="NOK">
+                    <span itemprop="price" content="1 399.00"></span>
+                    </div>
                 <h1>jordan 1 399,00 kr</h1>
             </article>
             <article>
                 <img src="img/jordan-4657349_640.jpg" alt="svart nike sko">
+                <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                    <meta itemprop="priceCurrency" content="NOK">
+                    <span itemprop="price" content="1 099.00"></span>
+                    </div>
                 <h1>nike 1 099,00 kr</h1>
             </article>
         </section>
