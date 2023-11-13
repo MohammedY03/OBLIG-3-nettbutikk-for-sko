@@ -36,6 +36,7 @@ header {
 
 ul {
   list-style: none;
+
 }
 
 header nav a {
@@ -109,7 +110,7 @@ main section article img {
 }
 
 ul {
-  row-gap: 40px;
+  row-gap: 50px;
   display: flex;
   flex-direction: column;
 }
